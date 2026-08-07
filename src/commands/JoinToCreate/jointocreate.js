@@ -35,16 +35,16 @@ export default {
                         .setName("channel_name")
                         .setDescription("Select a template for naming temporary voice channels.")
                         .addChoices(
-                            { name: "{username}'s Room (Default)", value: "{username}'s Room" },
-                            { name: "{username}'s Channel", value: "{username}'s Channel" },
-                            { name: "{username}'s Lounge", value: "{username}'s Lounge" },
-                            { name: "{username}'s Space", value: "{username}'s Space" },
-                            { name: "{displayName}'s Room", value: "{displayName}'s Room" },
-                            { name: "{username}'s VC", value: "{username}'s VC" },
-                            { name: "{username}'s Music Room", value: "{username}'s Music Room" },
-                            { name: "{username}'s Gaming Room", value: "{username}'s Gaming Room" },
-                            { name: "{username}'s Chat Room", value: "{username}'s Chat Room" },
-                            { name: "{username}'s Private Room", value: "{username}'s Private Room" }
+                            { name: "{username}'s Room (Default)", value: "{user} Room" },
+                            { name: "{username}'s Channel", value: "{user} Channel" },
+                            { name: "{username}'s Lounge", value: "{user} Lounge" },
+                            { name: "{username}'s Space", value: "{user} Space" },
+                            { name: "{displayName}'s Room", value: "{display} Room" },
+                            { name: "{username}'s VC", value: "{user} VC" },
+                            { name: "{username}'s Music Room", value: "{user} Music Room" },
+                            { name: "{username}'s Gaming Room", value: "{user} Gaming Room" },
+                            { name: "{username}'s Chat Room", value: "{user} Chat Room" },
+                            { name: "{username}'s Private Room", value: "{user} Private Room" }
                         )
                 )
                 .addIntegerOption((option) =>
