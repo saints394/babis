@@ -35,16 +35,16 @@ export default {
                         .setName("channel_name")
                         .setDescription("Select a template for naming temporary voice channels.")
                         .addChoices(
-                            { name: "{username}'s Room (Default)", value: "{user} Room" },
-                            { name: "{username}'s Channel", value: "{user} Channel" },
-                            { name: "{username}'s Lounge", value: "{user} Lounge" },
-                            { name: "{username}'s Space", value: "{user} Space" },
-                            { name: "{displayName}'s Room", value: "{display} Room" },
-                            { name: "{username}'s VC", value: "{user} VC" },
-                            { name: "{username}'s Music Room", value: "{user} Music Room" },
-                            { name: "{username}'s Gaming Room", value: "{user} Gaming Room" },
-                            { name: "{username}'s Chat Room", value: "{user} Chat Room" },
-                            { name: "{username}'s Private Room", value: "{user} Private Room" }
+                            { name: "{user} Room (Default)", value: "{user} Room" },
+                            { name: "{user} Channel", value: "{user} Channel" },
+                            { name: "{user} Lounge", value: "{user} Lounge" },
+                            { name: "{user} Space", value: "{user} Space" },
+                            { name: "{display} Room", value: "{display} Room" },
+                            { name: "{user} VC", value: "{user} VC" },
+                            { name: "{user} Music Room", value: "{user} Music Room" },
+                            { name: "{user} Gaming Room", value: "{user} Gaming Room" },
+                            { name: "{user} Chat Room", value: "{user} Chat Room" },
+                            { name: "{user} Private Room", value: "{user} Private Room" }
                         )
                 )
                 .addIntegerOption((option) =>
