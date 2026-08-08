@@ -36,7 +36,7 @@ export default {
                         .setDescription("Select a template for naming temporary voice channels.")
                         .addChoices(
                             { name: "{username} Room (Default)", value: "{username} Room" },
-                            { name: "{user} Channel", value: "{user} Channel" },
+                            { name: "{OWNER_NICKNAME}'s Channel", value: "{OWNER_NICKNAME}'s Channel" },
                             { name: "{user} Lounge", value: "{user} Lounge" },
                             { name: "{user} Space", value: "{user} Space" },
                             { name: "{displayname} Room", value: "{displayname} Room" },
