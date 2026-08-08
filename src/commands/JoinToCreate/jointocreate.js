@@ -32,7 +32,7 @@ export default {
                 )
                 .addStringOption((option) =>
                     option
-                        .setName("OWNER_NICKNAME's Channel")
+                        .setName("channel_name")
                         .setDescription("Select a template for naming temporary voice channels.")
                         .addChoices(
                             { name: "{username} Room (Default)", value: "{username} Room" },
