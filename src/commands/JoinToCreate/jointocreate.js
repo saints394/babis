@@ -39,12 +39,12 @@ export default {
                             { name: "{user} Channel", value: "{user} Channel" },
                             { name: "{user} Lounge", value: "{user} Lounge" },
                             { name: "{user} Space", value: "{user} Space" },
-                            { name: "{displayName} Room", value: "{displayName} Room" },
+                            { name: "{displayname} Room", value: "{displayname} Room" },
                             { name: "{user} VC", value: "{user} VC" },
                             { name: "{user} Music Room", value: "{user} Music Room" },
                             { name: "{user} Gaming Room", value: "{user} Gaming Room" },
                             { name: "{user} Chat Room", value: "{user} Chat Room" },
-                            { name: "{user} Private Room", value: "{user} Private Room" }
+                            { name: "{channel_name} Private Room", value: "{channel_name} Private Room" }
                         )
                 )
                 .addIntegerOption((option) =>
