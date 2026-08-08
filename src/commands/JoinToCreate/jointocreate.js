@@ -39,7 +39,7 @@ export default {
                             { name: "{user} Channel", value: "{user} Channel" },
                             { name: "{user} Lounge", value: "{user} Lounge" },
                             { name: "{user} Space", value: "{user} Space" },
-                            { name: "{display} Room", value: "{display} Room" },
+                            { name: "{display_name} Room", value: "{display_name} Room" },
                             { name: "{user} VC", value: "{user} VC" },
                             { name: "{user} Music Room", value: "{user} Music Room" },
                             { name: "{user} Gaming Room", value: "{user} Gaming Room" },
