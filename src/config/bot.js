@@ -25,11 +25,7 @@ export const botConfig = {
       {
         name: "soza", // required by Discord API, not shown in the client
         type: 1,               // Custom
-        client.user.setActivity({
-    name: 'soza',
-    type: 'STREAMING',
-    url: 'https://www.twitch.tv/discord'
-  });
+        url: 'https://www.twitch.tv/discord'
       },
     ],
   },
