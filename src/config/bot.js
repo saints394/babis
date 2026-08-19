@@ -26,6 +26,7 @@ export const botConfig = {
         name: "Babis", // required by Discord API, not shown in the client
         type: 1,               // Custom
         url: 'https://www.youtube.com/@Babis-d4t'
+        .setAssetsLargeImage("https://cdn.discordapp.com/avatars/1380866384174649507/233395b4439a71cb97972e0a5eadf259.png?size=4096")
       },
     ],
   },
