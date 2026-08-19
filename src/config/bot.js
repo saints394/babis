@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "soza", // required by Discord API, not shown in the client
+        name: "Babis", // required by Discord API, not shown in the client
         type: 1,               // Custom
-        url: 'https://www.twitch.tv/discord'
+        url: 'https://www.youtube.com/@Babis-d4t'
       },
     ],
   },
