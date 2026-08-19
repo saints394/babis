@@ -25,7 +25,7 @@ export const botConfig = {
       {
         name: "Babis", // required by Discord API, not shown in the client
         type: 1,               // Custom
-        url: 'https://www.youtube.com/@Babis-d4t'
+        url: 'https://twitch.tv/discord'
       },
     ],
   },
