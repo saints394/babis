@@ -23,7 +23,7 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Babis", // required by Discord API, not shown in the client
+        name: "Babis Script", // required by Discord API, not shown in the client
         type: 1,               // Custom
         url: 'https://twitch.tv/discord'
       },
